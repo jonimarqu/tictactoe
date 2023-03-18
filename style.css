@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  width: fit-content;
+  grid-template: repeat(3, 150px) / repeat(3, 150px);
+  gap: 5px;
+  background-color: black;
+}
+
+.container div {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+}
